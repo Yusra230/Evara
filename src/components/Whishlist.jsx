@@ -32,7 +32,7 @@ const Whishlist = () => {
                         <div className="cart-image text-center">Action</div>
                         <RemoveButton></RemoveButton>
                     </div>
-                    {updatedWishlistItems.length == 0 && <div><h3 className="py-4">Your Wishlist is Empty!</h3> <Link to={'/shop'} type="button" className="btn shop-now-btn px-4 me-md-2 mb-2" fdprocessedid="wy9v0s">Shop Now</Link></div>}
+                    {updatedWishlistItems.length == 0 && <div><h3 className="py-4">Your Wishlist is Empty!</h3> <Link to={'/Evara/shop'} type="button" className="btn shop-now-btn px-4 me-md-2 mb-2" fdprocessedid="wy9v0s">Shop Now</Link></div>}
                     {updatedWishlistItems.map(item => <WhishlistRow key={item.id} item={item} />)}
                 </div>
             </div>

@@ -28,7 +28,7 @@ const FeaturedItem = ({ item }) => {
     <>
       <div className="featured-items text-black">
         <div className="img-container position-relative">
-          <Link to={`/product/${item.id}`}>
+          <Link to={`/Evara/product/${item.id}`}>
             <img src={imageSrc} alt="" className={hovered ? 'hover-effect' : ''} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
           </Link>
           <span className="badge">NEW</span>

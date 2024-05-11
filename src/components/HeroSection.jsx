@@ -11,7 +11,7 @@ const HeroSection = () => {
                     <h1 className="display-5 fw-bold hero-heading lh-1 mb-3">Great Collection</h1>
                     <p className="lead">Save more with Coupons & upto 20% OFF.</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <Link to={'/shop'} type="button" className="btn shop-now-btn btn-lg px-4 me-md-2 mb-5" fdprocessedid="wy9v0s">Shop Now</Link>
+                        <Link to={'/Evara/shop'} type="button" className="btn shop-now-btn btn-lg px-4 me-md-2 mb-5" fdprocessedid="wy9v0s">Shop Now</Link>
                     </div>
                 </div>
                 <div className="col-md-10 mx-auto col-lg-6">

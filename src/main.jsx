@@ -17,13 +17,13 @@ import LoginPage from './components/LoginPage.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/', element: <App />, children: [
-      { path: '/', element: <Home /> },
-      { path: '/shop', element: <Shop /> },
-      { path: '/product/:id', element: <ItemDetails /> },
-      { path: '/cart', element: <Cart /> },
-      { path: '/wishlist', element: <Whishlist /> },
-      { path: '/login', element: <LoginPage /> }
+    path: '/Evara/', element: <App />, children: [
+      { path: '/Evara/', element: <Home /> },
+      { path: '/Evara/shop', element: <Shop /> },
+      { path: '/Evara/product/:id', element: <ItemDetails /> },
+      { path: '/Evara/cart', element: <Cart /> },
+      { path: '/Evara/wishlist', element: <Whishlist /> },
+      { path: '/Evara/login', element: <LoginPage /> }
     ]
   }
 ]);

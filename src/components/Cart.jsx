@@ -54,7 +54,7 @@ const Cart = () => {
 
             </div>
 
-            <Link to={'/shop'} className="btn shop-now-btn con-shopping"><TbShoppingCartPlus /> Continue Shopping</Link>
+            <Link to={'/Evara/shop'} className="btn shop-now-btn con-shopping"><TbShoppingCartPlus /> Continue Shopping</Link>
             <button className="btn shop-now-btn con-shopping"><RxUpdate /> Update Cart</button>
         </div>
         <CartDetails></CartDetails>

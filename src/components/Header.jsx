@@ -21,16 +21,16 @@ function Header() {
         <div className="container mt-3">
             <Navbar expand="lg" className="mb-3">
                 <Container fluid>
-                    <Navbar.Brand as={Link} to="/"> <img src="logo.svg" alt="Bootstrap" width="90" height="24" />   </Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/Evara/"> <img src="logo.svg" alt="Bootstrap" width="90" height="24" />   </Navbar.Brand>
 
                     <div className="text-end display-none">
-                        <Link to='/wishlist' className="position-relative text-black header-icons" onClick={() => setActiveClass('')}>
+                        <Link to='/Evara/wishlist' className="position-relative text-black header-icons" onClick={() => setActiveClass('')}>
                             <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-color">
                                 {wishListItems.length}
                             </span>
                             <FaRegHeart className="icon-style" /></Link>
 
-                        <Link to='/cart' className="position-relative text-black" onClick={() => setActiveClass('')}>
+                        <Link to='/Evara/cart' className="position-relative text-black" onClick={() => setActiveClass('')}>
                             <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-color">
                                 {cartItems.length}
                             </span>
@@ -51,11 +51,11 @@ function Header() {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="justify-content-start flex-grow-1 pe-3">
-                                <Nav.Link as={Link} to="/" onClick={() => { setActiveClass('home'); handleCloseOffcanvas(); }} className={`fw  ${activeClass === 'home' && 'activeClass'}`} >Home</Nav.Link>
-                                <Nav.Link as={Link} to="/shop" onClick={() => { setActiveClass('shop'); handleCloseOffcanvas(); }} className={`fw  ${activeClass === 'shop' && 'activeClass'}`} >Shop</Nav.Link>
-                                <Nav.Link as={Link} to="/" className="fw ">My Account</Nav.Link>
-                                <Nav.Link as={Link} to="/" className="fw ">Compare</Nav.Link>
-                                <Nav.Link as={Link} to="/login" onClick={() => { setActiveClass('login'); handleCloseOffcanvas(); }} className={`fw ${activeClass === 'login' && 'activeClass'}`}>Login</Nav.Link>
+                                <Nav.Link as={Link} to="/Evara/" onClick={() => { setActiveClass('home'); handleCloseOffcanvas(); }} className={`fw  ${activeClass === 'home' && 'activeClass'}`} >Home</Nav.Link>
+                                <Nav.Link as={Link} to="/Evara/shop" onClick={() => { setActiveClass('shop'); handleCloseOffcanvas(); }} className={`fw  ${activeClass === 'shop' && 'activeClass'}`} >Shop</Nav.Link>
+                                <Nav.Link as={Link} to="/Evara/" className="fw ">My Account</Nav.Link>
+                                <Nav.Link as={Link} to="/Evara/" className="fw ">Compare</Nav.Link>
+                                <Nav.Link as={Link} to="/Evara/login" onClick={() => { setActiveClass('login'); handleCloseOffcanvas(); }} className={`fw ${activeClass === 'login' && 'activeClass'}`}>Login</Nav.Link>
 
                             </Nav>
                             <Form className="d-flex">
@@ -69,13 +69,13 @@ function Header() {
                             </Form>
 
                             <div className="text-end display-none-mob">
-                                <Link to='/wishlist' className="position-relative text-black header-icons" onClick={() => setActiveClass('')}>
+                                <Link to='/Evara/wishlist' className="position-relative text-black header-icons" onClick={() => setActiveClass('')}>
                                     <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-color">
                                         {wishListItems.length}
                                     </span>
                                     <FaRegHeart className="icon-style" /></Link>
 
-                                <Link to='/cart' className="position-relative text-black" onClick={() => setActiveClass('')}>
+                                <Link to='/Evara/cart' className="position-relative text-black" onClick={() => setActiveClass('')}>
                                     <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-color">
                                         {cartItems.length}
                                     </span>
