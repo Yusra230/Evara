@@ -11,7 +11,7 @@ const Footer = () => {
     return <div className="container">
         <footer className="py-5">
             <div className="row">
-                <div className="col-6 col-md-5 mb-3">
+                <div className="col-6 col-md-5 mb-5">
                     <a className="navbar-brand" href="#">
                         <img src="logo.svg" alt="Bootstrap" width="90" height="24" />
                     </a>
@@ -41,11 +41,11 @@ const Footer = () => {
                 <div className="col-6 col-md-2 mb-3">
                     <h5>Quick Links</h5>
                     <ul className="nav flex-column">
-                        <li className="nav-item mb-2"><Link to={'/Evara/'} className="nav-link p-0 text-secondary fw">Home</Link></li>
-                        <li className="nav-item mb-2"><Link to={'/Evara/shop'} className="nav-link p-0 text-secondary fw">Shop</Link></li>
-                        <li className="nav-item mb-2"><Link href="#features" className="nav-link p-0 text-secondary fw">My Account</Link></li>
-                        <li className="nav-item mb-2"><Link href="#Arrivals" className="nav-link p-0 text-secondary fw">Compare</Link></li>
-                        <li className="nav-item mb-2"><Link to={'/Evara/login'} className="nav-link p-0 text-secondary fw">Login</Link></li>
+                        <li className="nav-item mb-2"><Link to={'/Evara/'} className="nav-link p-0 text-secondary fw text-start">Home</Link></li>
+                        <li className="nav-item mb-2"><Link to={'/Evara/shop'} className="nav-link p-0 text-secondary fw text-start">Shop</Link></li>
+                        <li className="nav-item mb-2"><Link href="#features" className="nav-link p-0 text-secondary fw text-start">My Account</Link></li>
+                        <li className="nav-item mb-2"><Link href="#Arrivals" className="nav-link p-0 text-secondary fw text-start">Compare</Link></li>
+                        <li className="nav-item mb-2"><Link to={'/Evara/login'} className="nav-link p-0 text-secondary fw text-start">Login</Link></li>
 
                     </ul>
                 </div>
@@ -53,15 +53,15 @@ const Footer = () => {
                 <div className="col-6 col-md-2 mb-3">
                     <h5>My Account</h5>
                     <ul className="nav flex-column">
-                        <li className="nav-item mb-2"><Link to={'/Evara/login'} className="nav-link p-0 text-secondary fw">Sign In</Link>
+                        <li className="nav-item mb-2"><Link to={'/Evara/login'} className="nav-link p-0 text-secondary fw text-start">Sign In</Link>
                         </li>
-                        <li className="nav-item mb-2"><Link to={'/Evara/cart'} className="nav-link p-0 text-secondary fw">View Cart</Link>
+                        <li className="nav-item mb-2"><Link to={'/Evara/cart'} className="nav-link p-0 text-secondary fw text-start">View Cart</Link>
                         </li>
-                        <li className="nav-item mb-2"><Link to={'/Evara/wishlist'} className="nav-link p-0 text-secondary fw ">My Whishlist
+                        <li className="nav-item mb-2"><Link to={'/Evara/wishlist'} className="nav-link p-0 text-secondary fw text-start">My Whishlist
                         </Link></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary fw">Track My Order
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary fw text-start">Track My Order
                         </a></li>
-                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary fw">Help</a>
+                        <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-secondary fw text-start">Help</a>
                         </li>
                     </ul>
                 </div>
